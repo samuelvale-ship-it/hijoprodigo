@@ -87,13 +87,13 @@ print(f"Incia con una dignidad de : {jugador.dignidad}")
 print(f"Incia con un hambre de : {jugador.hambre}")                
 
 while jugador.dinero > 0:
-    print("“Sigues viviendo lejos de casa…”")
+    print("“Sigues viviendo muy lejos de casa…”")
     # jugador.dinero -= 10  
     jugador.gastar_todo() 
     jugador.reflexionar()
     
-print("El dinero se acabo")              
-print("Su nivel de arrepentimiento esta en :" , jugador.arrepentimiento)      
+print("Su dinero se acabo")              
+print("El nivel de arrepentimiento esta en :" , jugador.arrepentimiento)      
                 
             
 # -----
@@ -106,3 +106,8 @@ elif opcion == 3:
     jugador.ahorrar()
 else:
     print("Esta opcion es invalida")   
+
+
+
+
+#SAMUEL FELIPE VALE CALLE
